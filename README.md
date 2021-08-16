@@ -2,7 +2,13 @@
 Analyzing Amazon reviews by members of its paid Amazon Vine program.
 
 ## Background
-We have been tasked with analyzing Amazon reviews written by members of the paid Amazon Vine program. The [Amazon Vine program](https://www.amazon.ca/gp/help/customer/display.html/?nodeId=GPEWN3RSQPEU2HST&pop-up=1) is a service that allows manufacturers and publishers to receive reviews for their products. Companies like SellBy pay a small fee to Amazon and provide products to Amazon Vine members, who are then required to publish a review.
+We have been tasked with analyzing Amazon reviews written by members of the paid Amazon Vine program. The [Amazon Vine program](https://www.amazon.ca/gp/help/customer/display.html/?nodeId=GPEWN3RSQPEU2HST&pop-up=1) is a service that allows manufacturers and publishers to receive reviews for their products. Companies like SellBy pay a small fee to Amazon and provide products to Amazon Vine members, who are then required to publish a review. 
+
+------------------------
+
+![amazon_vine.png](https://github.com/BHashemi2021/Amazon_Vine_Analysis/blob/main/Resources/images/amazon_vine.png)
+
+------------------------
 
 In this project, we will have access to approximately 50 datasets. Each one contains reviews of a specific product, from clothing apparel to wireless products. We will need to pick one of these datasets and use PySpark to perform the ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin. Next, we will use PySpark, Pandas, or SQL to determine if there is any bias toward favorable reviews from Vine members in our dataset. Then, we will write a summary of the analysis for to be submitted to the SellBy stakeholders.
 
