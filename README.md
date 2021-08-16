@@ -14,17 +14,29 @@ This new assignment consists of two technical analysis deliverables and a writte
     Deliverable 3: A Written Report on the Analysis (README.md)
   
 ### Deliveravle 1
-  We created an AWS RDS database with tables in pgAdmin, picked US Amazon reviews of Musical Instruments (v1) dataset available from the [Amazon Review datasets](https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt), and extracted the dataset into a DataFrame (Table 1). We transformed the DataFrame into four separate DataFrames that matched the table schema in our pgAdmin. We later will uploaded the transformed data into the appropriate tables on to the relational database on Amazon Web Serices (AWS) website and ran queries through pgAdmin to confirm that the data had been uploaded.
+  We created an AWS RDS database with tables in pgAdmin, picked US Amazon reviews of Musical Instruments (v1) dataset available from the [Amazon Review datasets](https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt), and extracted the dataset into a DataFrame (Figure 1). We transformed the DataFrame into four separate DataFrames that matched the table schema in our pgAdmin. We later uploaded the transformed data into the appropriate tables on to the relational database on Amazon Web Serices (AWS) website and ran queries through pgAdmin to confirm that the data had been uploaded (Figure 2).
   
   
-  #### Table 1: The dataset in a tabular format
+  #### Figure 1: The dataset in a tabular format
   
   ----------------------------------
   
   ![1.png](https://github.com/BHashemi2021/Amazon_Vine_Analysis/blob/main/Resources/images/1.png)
   
+  
   ----------------------------------
   
+  
+ #### Fingure 2: Queries performed through pgAdmin to confirm that the data had been uploaded to RDS on AWS website.
+ 
+  
+  ----------------------------------
+  
+  ![pgAdmin.png](https://github.com/BHashemi2021/Amazon_Vine_Analysis/blob/main/Resources/images/pgAdmin.png)
+  
+  ----------------------------------
+ 
+ 
   
 ### Deliveravle 2
 Using PySpark, Pandas, or SQL, we determined if there was any bias towards reviews that were written as part of the Vine program. For this analysis, we determined if having a paid Vine review made a difference in the percentage of 5-star reviews.
