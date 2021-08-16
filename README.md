@@ -39,10 +39,23 @@ This new assignment consists of two technical analysis deliverables and a writte
  
   
 ### Deliveravle 2
-Using PySpark, Pandas, or SQL, we determined if there was any bias towards reviews that were written as part of the Vine program. For this analysis, we determined if having a paid Vine review made a difference in the percentage of 5-star reviews.
+Using PySpark, Pandas, or SQL, we determined if there were any biases towards reviews that were written as part of the Vine program. For this analysis, we determined if having a paid Vine review made a difference in the percentage of 5-star reviews. 
+
+To achieve the intended result we cleaned and filter the Vine_table a number of times and summaized the rsults in Figure 3.
+
+
+  #### Figure 3: The dataset in a tabular format
+  
+  ----------------------------------
+  
+  ![Vinestats.png](https://github.com/BHashemi2021/Amazon_Vine_Analysis/blob/main/Resources/images/Vinestats.png)
+  
+  ----------------------------------
+
 
 ### Deliverable 3
 A summary report of the Vine Review Analysis.
+
 
 #### Overview of the Vine Review Analysis
 Explain the purpose of this analysis.
