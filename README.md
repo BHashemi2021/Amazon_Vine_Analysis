@@ -13,16 +13,16 @@ This new assignment consists of two technical analysis deliverables and a writte
     Deliverable 2: Determine Bias of Vine Reviews
     Deliverable 3: A Written Report on the Analysis (README.md)
   
-### Deliveravle 1:
+### Deliveravle 1
   We created an AWS RDS database with tables in pgAdmin, picked US Amazon reviews of Musical Instruments (v1) dataset available from the [Amazon Review datasets](https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt), and extract the dataset into a DataFrame. We transformed the DataFrame into four separate DataFrames that matched the table schema in our pgAdmin. We later will uploaded the transformed data into the appropriate tables on to the relational database on Amazon Web Serices (AWS) website and ran queries through pgAdmin to confirm that the data had been uploaded.
   
-### For deliveravle 2:
+### Deliveravle 2
 Using PySpark, Pandas, or SQL, we determined if there was any bias towards reviews that were written as part of the Vine program. For this analysis, we determined if having a paid Vine review made a difference in the percentage of 5-star reviews.
 
-### Deliverable 3:
-A summary report of the Vine Review Analysis .
+### Deliverable 3
+A summary report of the Vine Review Analysis.
 
-#### Overview of the analysis: 
+#### Overview of the Vine Review Analysis
 Explain the purpose of this analysis.
 
 #### Results: 
