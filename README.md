@@ -80,7 +80,7 @@ The Amazon Vine reviews program analysis was performed to answer whther the paid
     
 #### Summary: 
 
-The results of this analysis indicate that here is a slight positive bias (63.32% vs 57.05%) in 5-star reviews in the Vine program. 
+The results of this analysis indicate that there is a slight positive bias (63.32% vs 57.05%) in 5-star reviews in the Vine program. 
 
 The analysis could further drill down to find out about the percentages of verfied vs non-verified purchases to more accurately accept or reject the hypothetical differences.
 
