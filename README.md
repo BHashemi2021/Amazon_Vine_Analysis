@@ -68,7 +68,8 @@ To achieve the intended result we cleaned and filtered the Vine_table a few more
 #### Overview of the Vine Review Analysis
 The Amazon Vine reviews program analysis was performed to answer whther the paid reviews were conciously or subconciously taking sides in their reviews. The analysis could be more in-depth and benifit from Machine Learnng to detect or reject notion of such tendencies. 
 
-#### Results: 
+#### Results
+
     How many Vine reviews and non-Vine reviews were there?
     There were a total of 904,765 reviews in the dataset out of which 13,452 were non-paid and 891,313 were paid reviews left on the website. 
     
@@ -78,7 +79,7 @@ The Amazon Vine reviews program analysis was performed to answer whther the paid
     What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
     The 5-star reviews in Vine program formed 63.32% of the reviews in that category while th non-Vine review counted for 57.05% of its own category.
     
-#### Summary: 
+#### Summary 
 
 The results of this analysis indicate that there is a slight positive bias (63.32% vs 57.05%) in 5-star reviews in the Vine program. 
 
