@@ -23,7 +23,7 @@ This new assignment consists of two technical analysis deliverables and a writte
     Deliverable 2: Determine Bias of Vine Reviews
     Deliverable 3: A Written Report on the Analysis (README.md)
   
-### Deliveravle 1
+### Deliverable 1
   We created an AWS RDS database with tables in pgAdmin, picked US Amazon reviews of Musical Instruments (v1) dataset available from the [Amazon Review datasets](https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt), and extracted the dataset into a DataFrame (Figure 1). We transformed the DataFrame into four separate DataFrames that matched the table schema in our pgAdmin. We later uploaded the transformed data into the appropriate tables on to the relational database on Amazon Web Serices (AWS) website and ran queries through pgAdmin to confirm that the data had been uploaded (Figure 2).
   
   
@@ -66,7 +66,7 @@ To achieve the intended result we cleaned and filtered the Vine_table a few more
 ### Deliverable 3
 
 #### Overview of the Vine Review Analysis
-The Amazon Vine reviews program analysis was performed to answer whther the paid reviews were knowingly or unknowingly taking sides in their reviews. The analysis could be more complex and even apply Machine Learnng to  detect or reject such tendencies. 
+The Amazon Vine reviews program analysis was performed to answer whther the paid reviews were conciously or subconciously taking sides in their reviews. The analysis could be more in-depth and benifit from Machine Learnng to detect or reject notion of such tendencies. 
 
 #### Results: 
     How many Vine reviews and non-Vine reviews were there?
@@ -82,5 +82,5 @@ The Amazon Vine reviews program analysis was performed to answer whther the paid
 
 The results of this analysis indicate that here is a slight positive bias (63.32% vs 57.05%) in 5-star reviews in the Vine program. 
 
-The analysis could further drill down to find out about the verfied vs non-verified purchases to more accurately accept or reject the differences.
+The analysis could further drill down to find out about the percentages of verfied vs non-verified purchases to more accurately accept or reject the hypothetical differences.
 
